@@ -1,0 +1,38 @@
+{
+  "name": "Voize",
+  "version": "0.1",
+  "description": "Voice up! Easily read comments for any content on the Web.",
+  "permissions": [
+    "tabs"
+  ],
+  "background": {
+    "scripts": [
+      "env.js",
+      "background.js"
+    ]
+  },
+  "browser_action": {
+    "default_title": "Voize Comments"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "http://*/*",
+        "https://*/*"
+      ],
+      "exclude_matches": [
+        "http://*.voize.me/*",
+        "https://*.voize.me/*"
+      ],
+      "js": [
+        "contentScript.js"
+      ],
+      "run_at": "document_start"
+    }
+  ],
+  "icons": {
+    "32": "images/voize32.png",
+    "48": "images/voize48.png"
+  },
+  "manifest_version": 2
+}
