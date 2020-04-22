@@ -8,5 +8,5 @@ Copy content from `template.env.js` to `env.js`
 #### Features 
 
  - Adds `Voize` icon to your browser.  
- - Shows how many comments were written for the link you are located at.  
- - Clicking the icon takes you to the comment section.
+ - Shows number of comments for the content you are viewing.  
+ - Clicking the icon takes you to its comment section.
