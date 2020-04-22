@@ -1,4 +1,8 @@
+`Voize` currently dwells at https://voize.me/
+- - -
+
 ![Voize Extension](https://i.imgur.com/rIp70xK.png) 
+
 #### Config
 
 Copy content from `template.env.js` to `env.js`
